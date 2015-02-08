@@ -1,0 +1,111 @@
+/* Styling by Kevin Borling */
+/* General Styling */
+body {
+  background-color: #EEECD9;
+  color: #4C4341;
+  font: 100% "Open Sans", "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+}
+
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+h1, h2, h3 {
+  color: #5E6170;
+}
+
+a {
+  color: #A3C69C;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.btn {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  text-shadow: 0px 0px 1px #666666;
+  color: #5E6170;
+  font-size: 1.6rem;
+  background: #A3C69C;
+  padding: 10px 20px 10px 20px;
+  border-bottom: solid #666666 6px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #b0d6a9;
+  text-decoration: none;
+}
+
+.googleMap {
+  border: 10px solid #C4A468;
+}
+
+/* Header Styling */
+header hr {
+  background-color: #A3C69C;
+  border: none;
+  color: #A3C69C;
+  height: 50px;
+}
+header li {
+  margin: 5% auto;
+}
+header #nav a {
+  background-color: #A3C69C;
+  color: #5E6170;
+  display: inline-block;
+  font-size: 2.6rem;
+  font-weight: 800;
+  padding: 2%;
+}
+header #nav a:hover {
+  background-color: rgba(163, 198, 156, 0.84);
+}
+header img {
+  max-width: 100%;
+  border: 10px solid #C4A468;
+}
+header #logo {
+  border: none;
+}
+header #banner {
+  text-align: right !important;
+}
+
+/* Article/Section Styling */
+article section #rules {
+  text-align: center !important;
+  line-height: 40px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #A3C69C;
+}
+footer a {
+  color: #EEECD9;
+}
+footer > .column {
+  margin: 0 !important;
+}
+
+/*# sourceMappingURL=styles.css.map */

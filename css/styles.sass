@@ -1,0 +1,105 @@
+/* Styling by Kevin Borling */
+
+$font-stack: "Open Sans",'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans', 'Helvetica Neue', Arial, sans-serif
+
+$color-white: #EEECD9
+$color-green: #A3C69C
+$color-black: #4C4341
+$color-blue: #5E6170
+$color-brown: #C4A468
+
+$border: 10px solid $color-brown
+
+/* General Styling */
+body
+	background-color: $color-white
+	color: $color-black
+	font: 100% $font-stack
+	font-weight: 400
+
+img
+	-ms-interpolation-mode: bicubic
+
+h1, h2, h3
+	color: $color-blue
+
+a
+	color: $color-green
+	font-weight: 600
+	text-decoration: none
+
+ul
+	list-style: none
+
+.center
+	text-align: center
+.right
+	text-align: right
+.left
+	text-align: left
+
+.btn
+	-webkit-border-radius: 6
+	-moz-border-radius: 6
+	border-radius: 6px
+	text-shadow: 0px 0px 1px #666666
+	color: #5E6170
+	font-size: 1.6rem
+	background: #A3C69C
+	padding: 10px 20px 10px 20px
+	border-bottom: solid #666666 6px
+	text-decoration: none
+
+.btn:hover
+	background: #b0d6a9
+	text-decoration: none
+
+.googleMap
+	border: $border
+
+
+/* Header Styling */
+header
+	hr
+		background-color: $color-green
+		border: none
+		color: $color-green
+		height: 50px
+	li
+		margin: 5% auto
+	#nav	
+		a
+			background-color: $color-green
+			color: $color-blue
+			display: inline-block
+			font-size: 2.6rem
+			font-weight: 800
+			padding: 2%
+		a:hover
+			background-color: rgba(163, 198, 156, 0.84)
+
+	img
+		max-width: 100%
+		border: $border
+
+	#logo
+		border: none
+	#banner
+		text-align: right !important
+
+/* Article/Section Styling */
+article
+	section
+		#rules
+			text-align: center !important
+			line-height: 40px
+
+
+/* Footer Styling */
+footer
+	background-color: $color-green
+	
+	a
+		color: $color-white
+	>.column
+		margin: 0 !important
